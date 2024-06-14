@@ -9,7 +9,7 @@ public class childMouv : MonoBehaviour
     private Rigidbody2D rb;
     private Transform currentPoint;
     public float speed;
-    bool grounded;
+    // bool grounded;
 
     void Start()
     {
@@ -38,13 +38,13 @@ public class childMouv : MonoBehaviour
             currentPoint = ptnB.transform;
         }
     }
-    private void OnDrawGizmos()
+    /*private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(ptnA.transform.position, 0.5f);
         Gizmos.DrawWireSphere(ptnB.transform.position, 0.5f);
         Gizmos.DrawLine(ptnA.transform.position, ptnB.transform.position);
 
-    }
+    }*/
 }
 
 /*  private void OnCollisionEnter2D(Collision2D other)
