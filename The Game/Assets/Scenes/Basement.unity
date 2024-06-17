@@ -1109,10 +1109,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 931179560}
-  zoomStep: 0
+  zoomStep: 2
   minCamsize: 0
-  maxCamsize: 0
-  mapRenderer: {fileID: 0}
+  maxCamsize: 100
 --- !u!1 &1228192478
 GameObject:
   m_ObjectHideFlags: 0
