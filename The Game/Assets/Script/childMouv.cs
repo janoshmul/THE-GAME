@@ -9,7 +9,7 @@ public class childMouv : MonoBehaviour
     public string npcIdleText = "The NPC is idle.";
     public string npcWorkingText = "The NPC is working.";
     public TextMeshPro interactionText; // Assign the UI Text element in the Inspector
-    private string currentAction = "idle";
+    // private string currentAction = "idle";
     public GameObject ptnA;
     public GameObject ptnB;
     private Rigidbody2D rb;
